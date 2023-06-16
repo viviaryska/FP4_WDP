@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Basic&display=swap");
+
+body {
+  font-family: "Basic", sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  background-image: url("img/bg8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-weather {
+  width: 100%;
+  min-height: 566px;
+  display: flex;
+  margin-top: 45px;
+}
+
+.card-weather-title {
+  width: 30%;
+  background-color: rgb(233, 166, 166);
+  color: white;
+}
+
+.title-text {
+  margin-top: 90px;
+  text-align: center;
+  font-style: italic;
+}
+
+.card-weather-content {
+  width: 70%;
+  background-color: #a0c3d2;
+}
+
+.row {
+  margin-top: 48px;
+  justify-content: center;
+}
+
+.input-row {
+  margin-left: 20em;
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    margin-top: 48px;
+  }
+  .input-row {
+    margin-left: 10em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .input-row {
+    margin-left: 5em;
+  }
+}
+
+.result-row {
+  margin-top: 65px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.city {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.temp-minmax {
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 250px;
+  height: 250px;
+}
